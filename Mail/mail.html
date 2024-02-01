@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mail.css">
+</head>
+<body>
+
+<div id="conteneur">
+    <label id="sur">Surname</label>
+    <input type="text" id="prenom" placeholder="Enter your surname" oninput="generateAvailable(); deleteAvailable();">
+
+    <label id="na">Name</label>
+    <input type="text" id="nom" placeholder="Enter your name" oninput="generateAvailable(); deleteAvailable();">
+
+    <label>E-mail</label>
+    <input type="text" id="email" disabled readonly>
+
+
+    <button id="bouton" disabled read>Genarate</button>
+    <button id="bouton2" disabled>Delete</button>
+
+</div>
+
+
+    <script src ="mail.js"></script>
+
+</body>
+
+
+</html>

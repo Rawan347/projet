@@ -1,0 +1,54 @@
+#conteneur
+{
+   display: flex;
+    background-color: #161A30;
+    margin: 100px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+body
+{
+    background-image: url("C:/Users/HP/Desktop/WORKSPACE_HTML_CSS_PR_123/Javascript/image/name2.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteneur input
+{
+    padding: 5px;
+    margin: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 50px;
+
+}
+
+#conteneur button
+{
+    padding: 5px;
+    margin: 30px;
+    border: 5px solid;
+    border-radius: 15px;
+    font-size: 50px;
+    width: 270px;
+    align-self: center;
+    font-family: "Montserrat Alternates ExtraBold";
+    color: white;
+}
+
+#conteneur label
+{
+    padding: 5px;
+    font-size: 50px;
+    align-self: center;
+    font-family: "Montserrat Alternates SemiBold";
+    color: #B6BBC4;
+    text-decoration: underline white;
+}
+
+
+
+
