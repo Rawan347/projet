@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="calculatrice.css">
+</head>
+<body bgcolor="black">
+
+<div id="container">
+
+    <label>NUMBER 1</label>
+    <input type="text" id="number1" placeholder="Enter the first number" oninput="buttonAvailable()" readonly>
+
+    <label>NUMBER 2</label>
+    <input type="text" id="number2" placeholder="Enter the second number" oninput="buttonAvailable()" readonly>
+
+    <select id="selection">
+        <option value="addition">Addition</option>
+        <option value="substraction">Substraction</option>
+        <option value="multiplication">Multiplication</option>
+        <option value="division">Division</option>
+        <option value="modulo">Modulo</option>
+    </select>
+
+    <label> ANSWERS </label>
+    <input type="text" id="answer" disabled>
+
+
+
+    <button id="validate" disabled>Validate</button>
+
+    <button id="delete" disabled>Delete</button>
+
+    <label>DECIMAL</label>
+    <input type="text" id="decimal" readonly onmouseout="binary(); verification();">
+
+    <label>BINARY</label>
+    <input type="text" id="binary" readonly disabled>
+
+</div>
+
+
+
+</body>
+<script src="calculatrice.js"></script>
+</html>
